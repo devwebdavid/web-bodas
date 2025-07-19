@@ -136,3 +136,11 @@ temp/
 
 # Turbo
 .turbo
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
