@@ -137,4 +137,21 @@ temp/
 # Turbo
 .turbo
 
-# Video files
+# Video files and sensitive data
+videos/
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.mkv
+
+# Cloudinary upload scripts (contain sensitive data)
+Subir-cloudinary/
+
+# Environment variables and credentials
+.env
+.env.local
+.env.development
+.env.production

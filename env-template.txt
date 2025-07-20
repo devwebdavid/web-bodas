@@ -1,0 +1,40 @@
+# 🌥️ Credenciales de Cloudinary
+# Reemplaza los valores con tus credenciales reales
+
+# Nombre de tu nube en Cloudinary (se encuentra en el Dashboard)
+CLOUDINARY_CLOUD_NAME=tu_cloud_name_aqui
+
+# API Key de Cloudinary (se encuentra en el Dashboard)
+CLOUDINARY_API_KEY=tu_api_key_aqui
+
+# API Secret de Cloudinary (se encuentra en el Dashboard)
+CLOUDINARY_API_SECRET=tu_api_secret_aqui
+
+# ===========================================
+# 📋 INSTRUCCIONES PARA OBTENER TUS CREDENCIALES:
+# ===========================================
+#
+# 1. Ve a https://cloudinary.com/ y inicia sesión
+# 2. En el Dashboard, busca la sección "Account Details"
+# 3. Copia los siguientes valores:
+#    - Cloud Name: Es el nombre de tu cuenta
+#    - API Key: Clave de la API
+#    - API Secret: Secreto de la API
+#
+# 4. Reemplaza los valores de arriba con los tuyos
+# 5. Guarda el archivo como ".env" (sin la extensión .txt)
+#
+# ===========================================
+# ⚠️ IMPORTANTE:
+# ===========================================
+# - NO compartas este archivo
+# - NO lo subas a GitHub
+# - Mantén tus credenciales seguras
+# - El archivo .env ya está en .gitignore
+#
+# ===========================================
+# 🔍 EJEMPLO DE CÓMO DEBERÍA QUEDAR:
+# ===========================================
+# CLOUDINARY_CLOUD_NAME=mi_empresa_123
+# CLOUDINARY_API_KEY=123456789012345
+# CLOUDINARY_API_SECRET=abcdefghijklmnopqrstuvwxyz123456 
