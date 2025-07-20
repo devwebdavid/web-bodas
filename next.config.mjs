@@ -8,7 +8,16 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+        port: '',
+        pathname: '/dmsg7fa8h/**',
+      },
+    ],
   },
+  trailingSlash: false,
 }
 
 export default nextConfig
